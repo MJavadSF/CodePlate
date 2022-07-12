@@ -1,8 +1,21 @@
 {
-  "name": "@code-plate/code-plate",
-  "version": "1.0.0",
+  "name": "cra-template-cp",
+  "version": "1.0.4",
   "license": "MIT",
   "description": "ReactJS Custom Boilerplate",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "cra-template",
+    "template",
+    "eslint",
+    "redux",
+    "react-redux",
+    "react-router",
+    "react-router-dom",
+    "typescript",
+    "prettier"
+  ],
   "author": "MJ. Soleymani Fard <mjavadsf72@gmail.com> (https://imjavad.ir)",
   "repository": {
     "type": "git",
@@ -195,7 +208,7 @@
     "web-vitals": "^2.1.4"
   },
   "homepage": "https://github.com/MJavadSF/CodePlate#readme",
-  "main": ".babel-plugin-macrosrc.js",
+  "main": "template.json",
   "directories": {
     "lib": "lib"
   }
