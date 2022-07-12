@@ -1,0 +1,27 @@
+{
+  "projectName": "CodePlate",
+  "projectOwner": "MJavadSF",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 80,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "MJavadSF",
+      "name": "Mohammad Javad Soleymani Fard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7431591?v=4",
+      "profile": "https://imjavad.ir",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "review",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 1
+}

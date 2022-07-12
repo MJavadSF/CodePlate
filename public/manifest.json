@@ -1,0 +1,30 @@
+{
+  "short_name": "CodePlate",
+  "name": "CodePlate",
+  "description": "ReactJS Custom Boilerplate",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "48x48"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display_override": ["window-control-overlay", "standalone"],
+  "display": "standalone",
+  "theme_color": "#2A2A2A",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary"
+}

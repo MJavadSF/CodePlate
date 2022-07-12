@@ -1,0 +1,24 @@
+{
+  "defaultSeverity": "warn",
+  "extends": ["tslint:recommended"],
+  "jsRules": {
+    "max-line-length": {
+      "options": [120]
+    }
+  },
+  "rules": {
+    "max-line-length": {
+      "options": [120]
+    },
+    "no-conditional-assignment": true,
+    "new-parens": true,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-consecutive-blank-lines": false,
+    "no-console": {
+      "severity": "warning",
+      "options": ["debug", "info", "log", "table", "time", "timeEnd", "trace"]
+    }
+  },
+  "rulesDirectory": []
+}

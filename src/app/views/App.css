@@ -1,0 +1,122 @@
+@import url('../../assets/css/Pelak.css');
+
+* {
+  font-family: PelakFA, sans-serif !important;
+  direction: rtl;
+}
+
+body {
+  overflow-x: hidden !important;
+  overflow-y: auto;
+  background-color: #fafafa !important;
+}
+
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+.MuiDrawer-paper::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #433792;
+  border-radius: 3px;
+}
+
+.MuiPaper-root,
+.MuiCard-root {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+.MuiCard-root {
+  border-radius: 6px !important;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: 0 0px 12px 0px rgba(0, 0, 0, 0.054) !important;
+}
+
+.Mui-focusVisible:hover {
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.MuiCardActionArea-root {
+  cursor: pointer !important;
+}
+
+.PrivateDatePickerToolbar-penIcon {
+  visibility: hidden;
+}
+
+.TFContainer {
+  height: 40px;
+  width: 300px;
+  direction: ltr !important;
+}
+
+.character {
+  line-height: 40px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  border-radius: 6px;
+  margin-right: 9px;
+  cursor: text;
+}
+
+.character:first-child {
+  margin-left: 0;
+}
+
+.character--inactive {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.character--selected {
+  border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.progressBarContainer {
+  transform: rotate(180deg) !important;
+}
+
+.MuiBottomNavigationAction-label.Mui-selected {
+  font-size: 0.65rem !important;
+}
+
+.MuiAlert-outlinedSuccess {
+  background-color: #f3faf6 !important;
+  border: none !important;
+  border-bottom: 3px solid #30ac62 !important;
+}
+
+.MuiAlert-outlinedWarning {
+  background-color: #fffcf1 !important;
+  border: none !important;
+  border-bottom: 3px solid #f8cd11 !important;
+}
+
+.MuiAlert-outlinedError {
+  background-color: #fcf1f2 !important;
+  border: none !important;
+  border-bottom: 3px solid #d52333 !important;
+}
+
+.MuiAlert-message {
+  padding: 12px 4px 0px 4px !important;
+}

@@ -1,0 +1,45 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "target": "esnext",
+    "lib": ["dom", "es5", "es2015", "es6", "es2016", "es7", "es2017", "es2018", "es2019", "es2020", "es2021", "esnext", "WebWorker", "ScriptHost"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "noUnusedParameters": false,
+    "sourceMap": true,
+    "declaration": true,
+    "noUnusedLocals": false,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true,
+    "typeRoots": ["node_modules/@types", "src/types/images.d.ts", "src/types/fonts.d.ts"],
+    "baseUrl": "./src/",
+    "rootDir": "src",
+    "outDir": "build",
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noEmit": true,
+      "allowSyntheticDefaultImports": true
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build"]
+}
