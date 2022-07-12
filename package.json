@@ -1,13 +1,12 @@
 {
-  "name": "codeplate",
+  "name": "@code-plate/code-plate",
   "version": "1.0.0",
   "license": "MIT",
-  "private": true,
   "description": "ReactJS Custom Boilerplate",
   "author": "MJ. Soleymani Fard <mjavadsf72@gmail.com> (https://imjavad.ir)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MJavadSF/CodePlate.git"
+    "url": "git+https://github.com/MJavadSF/CodePlate.git"
   },
   "bugs": {
     "url": "https://github.com/MJavadSF/CodePlate/issues",
@@ -194,5 +193,10 @@
     "typescript": "^4.7.4",
     "uglifyify": "^5.0.2",
     "web-vitals": "^2.1.4"
+  },
+  "homepage": "https://github.com/MJavadSF/CodePlate#readme",
+  "main": ".babel-plugin-macrosrc.js",
+  "directories": {
+    "lib": "lib"
   }
 }
