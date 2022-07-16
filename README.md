@@ -2,7 +2,11 @@
 
 # React-JS Boilerplate
 
-## Tools
+### How to Install & Use:
+
+> yarn create react-app --template cra-template-cp my-app
+
+## Features & Tools
 
 ---
 
