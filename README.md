@@ -1,4 +1,5 @@
-![CodePlate](./src/assets/images/DarkLogo.webp)
+![CodePlate](./src/assets/images/FullSizeLogo.jpg)
+
 # React-JS Boilerplate
 
 ## Tools
@@ -6,6 +7,7 @@
 ---
 
 ### Core
+
 > - [React](https://reactjs.org)
 > - [React Router](https://reactrouter.com)
 > - [StyledComponents](https://styled-components.com)
@@ -18,12 +20,13 @@
 > - Custom Scripts
 
 ### Linting
+
 > - ESLint
 > - TSLint
-> - Prettier 
+> - Prettier
 > - Stylelint
 
 ### Unit Test
+
 > - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 > - [Jest](https://jestjs.io/)
-
